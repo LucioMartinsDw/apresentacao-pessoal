@@ -43,9 +43,9 @@ nav {
 }
 
 /*Celulares*/
-@media (max-width: 375x667) {
+@media screen and (max-width:500px) {
   h1 {
-    color: red;
+    color: rgb(16, 238, 79);
   }
 
   p {
@@ -53,7 +53,7 @@ nav {
   }
 }
 
-/*Tablets*/
+/*Tablets
 @media (max-width: 768x1024) {
   h1 {
     color: black;
@@ -63,3 +63,5 @@ nav {
     color: blue;
   }
 }
+
+*/
