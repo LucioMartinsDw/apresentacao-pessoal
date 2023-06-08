@@ -32,6 +32,7 @@ h1 {
   font-weight: bold;
 }
 
+/* Destaque nos links com a tag span*/
 span {
   font-weight: bold;
   color: blue;
