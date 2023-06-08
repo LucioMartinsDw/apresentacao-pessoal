@@ -4,10 +4,12 @@
   box-sizing: border-box;
 }
 
+/* imagem de fundo no corpo do doc*/
 body {
   background-image: url(../imgs/web.jpg);
 }
 
+/*Cabecalho da pagina*/
 header {
   background-color: rgb(216, 237, 237);
   display: flex;
@@ -15,6 +17,7 @@ header {
   justify-content: space-around;
   height: 70px;
 }
+
 a {
   text-decoration: none;
   color: rgb(242, 224, 60);
@@ -29,6 +32,7 @@ h1 {
   font-weight: bold;
 }
 
+/*Barra de navegacao da pag.*/
 nav {
   background-color: rgb(106, 158, 246);
   display: flex;
@@ -36,6 +40,8 @@ nav {
   width: 30%;
   justify-content: space-around;
 }
+
+/* Destaque nos links com a tag span*/
 
 span {
   font-weight: bold;
@@ -96,7 +102,8 @@ textarea {
 
 .button {
   /* Para posicionar os botões na mesma posição dos campos de texto */
-  padding-left: 90px; /* mesmo tamanho que os elementos do rótulo */
+  padding-left: 90px;
+  /* mesmo tamanho que os elementos do rótulo */
 }
 
 button {
@@ -107,23 +114,22 @@ button {
 
 /*Celulares*/
 @media (max-width: 375x667) {
-    h1 {
-      color: red;
-    }
-  
-    p {
-      color: blue;
-    }
+  h1 {
+    color: red;
   }
-  
-  /*Tablets*/
-  @media (max-width: 768x1024) {
-    h1 {
-      color: black;
-    }
-  
-    p {
-      color: blue;
-    }
+
+  p {
+    color: blue;
   }
-  
+}
+
+/*Tablets*/
+@media (max-width: 768x1024) {
+  h1 {
+    color: black;
+  }
+
+  p {
+    color: blue;
+  }
+}

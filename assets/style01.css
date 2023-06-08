@@ -4,36 +4,60 @@
   box-sizing: border-box;
 }
 
+/* imagem de fundo no corpo do doc*/
 body {
-  background-image: url("../imgs/web.jpg");
+  background-image: url("../imgs/outrun.jpg");
 }
 
+/* Cabecalho da pag.*/
 header {
-  background-color: rgb(216, 237, 237);
+  background-color: rgb(17, 110, 204);
   display: flex;
   color: #ffff;
   justify-content: space-around;
   height: 70px;
 }
+
+.flexbox-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.flexbox {
+  margin-top: 200px;
+
+}
+
+
+
+/*link*/
 a {
   text-decoration: none;
   color: rgb(242, 224, 60);
   font-weight: bold;
 }
 
+/* Titulo de nivel 1*/
 h1 {
   width: 70%;
   padding-left: 20px;
   line-height: 50px;
   color: rgb(196, 12, 184);
   font-weight: bold;
+  margin-top: 10px;
 }
 
+/* Destaque nos links com a tag span*/
 span {
   font-weight: bold;
   color: blue;
 }
 
+/*Navegacao*/
 nav {
   background-color: rgb(106, 158, 246);
   display: flex;
